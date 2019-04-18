@@ -14,7 +14,7 @@ import java.util.Scanner;
         }
             if(flag==0)
             {
-                System.out.println("prime");
+                System.out.println("yes");
             }
             else{
                 System.out.println("no");
