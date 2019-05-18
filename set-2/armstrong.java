@@ -1,9 +1,8 @@
-import java.util.*;
-public class Main
-{
-	public static void main(String[] args) {
-		Scanner in=new Scanner(System.in);
-		int n=in.nextInt();
+import java.lang.*;
+import java.util.Scanner;
+class arm{
+    void check(int n)
+    {
 		int k=n;
 		int temp=0;
 		while(n>0){
@@ -18,4 +17,12 @@ public class Main
 		    System.out.print("no");
 		}
 	}
+}
+public class Main{
+    public static void main(String args[]){
+    arm o = new arm();
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    o.check(a);
+}
 }
