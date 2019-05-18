@@ -4,7 +4,7 @@ class Odd{
     void check(int strating_number,int ending_number)
     {
         for(int i=strating_number;i<ending_number;i++)
-        {
+        
             if(i%2 != 0 && i!=1)
             {
                 System.out.println(i);
