@@ -5,7 +5,7 @@ class Even{
     {
         for(int i=strating_number;i<ending_number;i++)
         {
-            if(i%2 == 0)
+            if(i%2 == 0 && i!= strating_number)
             {
                 System.out.println(i);
             }
