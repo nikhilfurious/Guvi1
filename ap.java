@@ -1,9 +1,8 @@
 
 import java.util.Scanner;
-class Main{ 
+public class Main{ 
 
-	static float sumOfAP(float a, float d, 
-								int n) 
+	static float sumOfAP(float a, float d,int n) 
 	{ 
 		float sum = 0; 
 		for (int i = 0; i < n; i++) 
